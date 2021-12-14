@@ -21,6 +21,8 @@ public class Test0 {
 		
 		driver.findElement(By.xpath("//span[text()='Calendar']")).click();
 	
+		driver.switchTo().defaultContent();
+		
 	}
 
 }
