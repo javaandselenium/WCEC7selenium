@@ -25,8 +25,9 @@ WebElement ele = driver.findElement(By.xpath("//img[@alt='Computer & Accessories
 	JavascriptExecutor js=(JavascriptExecutor) driver;
 	js.executeScript("window.scrollBy("+x+","+y+")");
 	
-	Thread.sleep(3000);
-	ele.click();
+//	Thread.sleep(3000);
+//	ele.click();
+	js.executeScript("agruments[0].click();",ele);
 	
 	
 	}

@@ -24,7 +24,7 @@ public class Test3 {
 		
 		r.keyRelease(KeyEvent.VK_CONTROL);
 		r.keyRelease(KeyEvent.VK_WINDOWS);
-		r.keyRelease(KeyEvent.VK_DOWN);
+	//	r.keyRelease(KeyEvent.VK_DOWN);
 
 
 		
