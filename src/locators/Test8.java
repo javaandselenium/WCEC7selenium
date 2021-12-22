@@ -16,7 +16,7 @@ driver.get("https://www.instagram.com/");
 driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 
 
-driver.findElement(By.name("username")).sendKeys("ereyrtyrtw");
+driver.findElement(By.name("username")).sendKeys("e76576576");
 driver.findElement(By.name("password")).sendKeys("fyfhjgjg");
 driver.findElement(By.xpath("//div[contains(@class,'DhRcB')]")).click();
 
