@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[calls]]>
+    </line>
+    <line>
+      <![CDATA[calls]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-12-24T17:42:45 IST" name="Default suite" finished-at="2021-12-24T17:42:45 IST" duration-ms="155">
+    <groups>
+    </groups>
+    <test started-at="2021-12-24T17:42:45 IST" name="Default test" finished-at="2021-12-24T17:42:45 IST" duration-ms="155">
+      <class name="testng.Test2">
+        <test-method signature="calls()[pri:2, instance:testng.Test2@623a8092]" started-at="2021-12-24T17:42:45 IST" name="calls" finished-at="2021-12-24T17:42:45 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[calls]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- calls -->
+        <test-method signature="calls()[pri:2, instance:testng.Test2@623a8092]" started-at="2021-12-24T17:42:45 IST" name="calls" finished-at="2021-12-24T17:42:45 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[calls]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- calls -->
+      </class> <!-- testng.Test2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
